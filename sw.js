@@ -1,13 +1,13 @@
 
 
 const staticAsseets = [
-    '/',
+    '.',
     'index.html',
-    '/image/icon-128x128.png',
-    '/image/icon-192x192.png',
-    '/image/03f08527927e3d6161179c3a58458963_xl.js',
-    '/css/bootstrap.min.css',
-    '/js/bootstrap.bundle.min.js'
+    'image/icon-128x128.png',
+    'image/icon-192x192.png',
+    'image/03f08527927e3d6161179c3a58458963_xl.js',
+    'css/bootstrap.min.css',
+    'js/bootstrap.bundle.min.js'
 ]
 
 const staticChaceName = 'site-static-v1'
