@@ -12,7 +12,7 @@ const staticAsseets = [
     'js/bootstrap.bundle.min.js'
 ]
 
-const staticChaceName = 'site-static-v1'
+const staticChaceName = 'site-static-v2'
 
 //install, load cach
 self.addEventListener('install', async evt=>{
