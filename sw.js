@@ -2,10 +2,11 @@
 
 const staticAsseets = [
     '.',
+    'main.js'
     'index.html',
     'images/icon-128x128.png',
     'images/icon-192x192.png',
-    'images/03f08527927e3d6161179c3a58458963_xl.js',
+    'images/calculator.png',
     'css/bootstrap.min.css',
     'js/bootstrap.bundle.min.js'
 ]
