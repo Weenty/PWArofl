@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 }   
             })
         }, 10000);
+       })
     })
 
 window.addEventListener('load', function(){
