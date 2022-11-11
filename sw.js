@@ -6,7 +6,7 @@ const staticAsseets = [
     'index.html',
     'images/icons/icon-128x128.png',
     'images/icons/icon-192x192.png',
-    'images/icons/calculator.png',
+    'images/calculator.png',
     'css/bootstrap.min.css',
     'js/bootstrap.bundle.min.js'
 ]
