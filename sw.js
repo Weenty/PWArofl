@@ -4,9 +4,9 @@ const staticAsseets = [
     '.',
     'main.js',
     'index.html',
-    'images/icon-128x128.png',
-    'images/icon-192x192.png',
-    'images/calculator.png',
+    'images/icons/icon-128x128.png',
+    'images/icons/icon-192x192.png',
+    'images/icons/calculator.png',
     'css/bootstrap.min.css',
     'js/bootstrap.bundle.min.js'
 ]
