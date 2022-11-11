@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function(){
                 if (result==='granted') {
                     Notification(imt)
                 }   
-            })
         }, 10000);
        })
     })
