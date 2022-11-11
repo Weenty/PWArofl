@@ -2,7 +2,7 @@
 
 const staticAsseets = [
     '.',
-    'main.js'
+    'main.js',
     'index.html',
     'images/icon-128x128.png',
     'images/icon-192x192.png',
