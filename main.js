@@ -1,3 +1,11 @@
+function autificationEMT(emt) {
+    const OPTIONS = {
+        'body': 'ЭЙ ТЫ, ДА-ДА ТЫ, А НУ СЮДА ИДИ',
+        'icon': 'images/calculator.png'
+    }
+    new Notification('ВАШ ОПОВЕЩАТОР', OPTIONS)
+}
+
 document.addEventListener('DOMContentLoaded', function(){
     const height_elem = document.getElementById('exampleInputHeight')
     const width_elem = document.getElementById('exampleInputWidth')
@@ -13,8 +21,14 @@ document.addEventListener('DOMContentLoaded', function(){
         h=h/100
         let imt = w/(h*h);
         answer_elem.value = imt.toFixed(2)
+        setInterval(()=>{
+            Notification.requestPermission().then((result)=>{
+                if (result==='granted') {
+                    Notification(imt)
+                }   
+            })
+        }, 10000);
     })
-})
 
 window.addEventListener('load', function(){
     if('serviceWorker' in navigator){
